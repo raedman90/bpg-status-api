@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 
 app.get("/sampstatus", (req, res) => {
   const options = {
-    host: "104.234.189.170", // coloque o IP do servidor
+    host: "bpg.brasilplaygames.com.br", // coloque o IP do servidor
     port: 7777,
     timeout: 1000
   };
